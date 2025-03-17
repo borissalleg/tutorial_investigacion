@@ -1,0 +1,22 @@
+/* Cambia el color de las tabs activas */
+.md-tab--active {
+    background-color: #FF5733; /* Naranja */
+    color: white;
+}
+
+.md-tab--active::after {
+    background-color: #FF5733; /* Naranja */
+}
+
+/* Cambia el color de los botones activos */
+.md-button--active,
+.md-button--primary:active {
+    background-color: #4CAF50; /* Verde */
+    color: white;
+}
+
+/* Cambia el color de los enlaces activos en la navegación */
+.md-nav__link--active {
+    background-color: #2196F3; /* Azul */
+    color: white;
+}

@@ -1,4 +1,4 @@
-site_name: My Docs
+site_name: Metodologia de la Investigación - Una guia concreta
 nav:
   - Index : index.md
   - About : about.md
@@ -39,8 +39,11 @@ theme:
       toggle:
         icon: material/weather-night
         name: Light mode
-      primary: blue
-      accent: deep orange
+      primary: purple
+      accent: orange
+
+extra_css:
+  - assets/stylesheets/styles.css
 
 markdown_extensions:
   - attr_list

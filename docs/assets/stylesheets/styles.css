@@ -1,0 +1,135 @@
+
+
+/* Estilo para los labels activos */
+.tabbed-labels tabbed-labels--linked[for]:has(+ input:checked) {
+    background-color: #27d13a; /* Azul para el label activo */
+    color: white; /* Texto blanco */
+    border-radius: 5px 5px 0 0; /* Bordes redondeados en la parte superior */
+    padding: 10px; /* Espaciado interno */
+    cursor: ponter; /* Cambia el cursor para indicar que no es clickeable */
+}
+
+/* Estilo para los labels activos */
+.tabbed-labels label[for]:has(+ input:checked) {
+    background-color: #007BFF; /* Azul para el label activo */
+    color: white; /* Texto blanco */
+    border-radius: 5px 5px 0 0; /* Bordes redondeados en la parte superior */
+    padding: 10px; /* Espaciado interno */
+    cursor: default; /* Cambia el cursor para indicar que no es clickeable */
+}
+
+
+/* Estilo para los labels activos */
+.md-tab--active,
+.tabbed-labels label.md-tab--active {
+    background-color: #007BFF; /* Azul para el label activo */
+    color: white; /* Texto blanco */
+    border-radius: 5px 5px 0 0; /* Bordes redondeados en la parte superior */
+    padding: 10px; /* Espaciado interno */
+    cursor: default; /* Cambia el cursor para indicar que no es clickeable */
+}
+
+/* Estilo para los labels inactivos */
+.tabbed-labels label {
+    background-color: #e5dfdf; /* Fondo claro para los inactivos */
+    color: #333; /* Texto oscuro */
+    padding: 10px; /* Espaciado interno */
+    cursor: pointer; /* Indica que es clickeable */
+    transition: all 0.3s ease; /* Efecto suave al cambiar de estado */
+}
+
+/* Hover para los labels inactivos */
+.tabbed-labels label:hover {
+    background-color: #946c92; /* Cambio de color al pasar el mouse */
+    color: #4eff33;
+}
+
+/* Cambia el color de fondo y texto de la pestaña activa */
+.md-tab--active,
+.tabbed-labels label[for]:has(+ input:checked) {
+    background-color: #007BFF; /* Azul para la pestaña activa */
+    color: white; /* Texto blanco */
+    border-radius: 5px 5px 0 0; /* Bordes redondeados en la parte superior */
+}
+
+/* Cambia el color del borde inferior de la pestaña activa */
+.md-tab--active::after,
+.tabbed-labels label[for]:has(+ input:checked)::after {
+    background-color: #bec925; /* Azul para el borde inferior */
+}
+
+/* Estilo para el contenido de la pestaña activa */
+.tabbed-content .tabbed-block {
+    background-color: #f9f9f9; /* Fondo claro para el contenido */
+    border: 1px solid #ddd; /* Borde alrededor del contenido */
+    padding: 15px; /* Espaciado interno */
+    border-top: none; /* Elimina el borde superior para que no se superponga con la pestaña */
+}
+
+
+/* Cambia el color de las tabs activas */
+.md-tab--active {
+    background-color: #FF5733; /* Naranja */
+    color: white;
+}
+
+.md-tab--active::after {
+    background-color: #33ff74; /* Naranja */
+}
+
+/* Cambia el color de los botones activos */
+.md-button--active,
+.md-button--primary:active {
+    background-color: #4CAF50; /* Verde */
+    color: white;
+}
+
+/* Cambia el color de los enlaces activos en la navegación */
+.md-nav__link--active {
+    background-color: #c1abcb; /* Azul */
+    color: white;
+    border-radius: 10px 10px 10px 10px; /* Bordes redondeados en la parte superior */
+    padding: 10px;
+}
+
+
+/* Estilo general para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    text-align: left;
+}
+
+/* Encabezados de la tabla */
+th {
+    background-color: #0e0e0e; /* Azul */
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 2px solid #d0b8cc;
+}
+
+/* Celdas de la tabla */
+td {
+    padding: 8px;
+    border-bottom: 1px solid #b0a5a5;
+}
+
+/* Filas alternas */
+tr:nth-child(even) {
+    background-color:#d0b8cc;
+}
+
+/* Hover en filas */
+tr:hover {
+    background-color: #9b9797; /* Gris medio */
+}
+
+/* Bordes redondeados para la tabla */
+table {
+    border-radius: 5px;
+    overflow: hidden;
+}
