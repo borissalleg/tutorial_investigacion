@@ -1,9 +1,11 @@
 site_name: Metodologia de la Investigación - Una guia concreta
 nav:
   - Index : index.md
-  - About : about.md
+  - Introduccion : introduccion.md
+  - Paradigmas : paradigma.md
+ 
   - Enfoque : enfoque.md
-  
+  - About : about.md
 
  
 theme:
@@ -20,9 +22,12 @@ theme:
   favicon: assets/favicon.ico
   features:
     - navigation.footer
+    # - navigation.expand
+    - navigation.sections  # Habilita la generación automática de índices
     - content.tabs.link
     - content.code.annotate
     - content.tooltips
+    # - toc.integrate  # Habilita la integración de la tabla de contenido
     
     
   palette:

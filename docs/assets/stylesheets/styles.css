@@ -9,10 +9,28 @@
     cursor: ponter; /* Cambia el cursor para indicar que no es clickeable */
 }
 
+.md-typeset .tabbed-labels label {
+    border-radius: 10px 10px 0 0;
+}
+
+/* Estilo para los labels activos */
+.tabbed-labels tabbed-labels--linked {
+    background-color: #27d13a;
+    /* Azul para el label activo */
+    color: white;
+    /* Texto blanco */
+    border-radius: 15px 15px 0 0;
+    /* Bordes redondeados en la parte superior */
+    padding: 10px;
+    /* Espaciado interno */
+    cursor: ponter;
+    /* Cambia el cursor para indicar que no es clickeable */
+}
 /* Estilo para los labels activos */
 .tabbed-labels label[for]:has(+ input:checked) {
     background-color: #007BFF; /* Azul para el label activo */
-    color: white; /* Texto blanco */
+    color: rgb(153, 75, 75);
+        /* Texto blanco */
     border-radius: 5px 5px 0 0; /* Bordes redondeados en la parte superior */
     padding: 10px; /* Espaciado interno */
     cursor: default; /* Cambia el cursor para indicar que no es clickeable */
@@ -23,25 +41,36 @@
 .md-tab--active,
 .tabbed-labels label.md-tab--active {
     background-color: #007BFF; /* Azul para el label activo */
-    color: white; /* Texto blanco */
+    color: rgb(198, 171, 171);
+        /* Texto blanco */
     border-radius: 5px 5px 0 0; /* Bordes redondeados en la parte superior */
     padding: 10px; /* Espaciado interno */
     cursor: default; /* Cambia el cursor para indicar que no es clickeable */
 }
 
-/* Estilo para los labels inactivos */
+/* Estilo para los labels inactivos serian las etiquetas de las secciones */
 .tabbed-labels label {
-    background-color: #e5dfdf; /* Fondo claro para los inactivos */
-    color: #333; /* Texto oscuro */
-    padding: 10px; /* Espaciado interno */
+    background-color: #8e7e8c;
+        /* Fondo claro para los inactivos */
+        color: #bdb3b3;
+        /* Texto oscuro */
+        margin: 1px;
+        padding: 5px;
+        /* Espaciado interno */
+        border-radius: 25px 15px 15px 0;
+        /* Bordes redondeados en la parte superior */
     cursor: pointer; /* Indica que es clickeable */
-    transition: all 0.3s ease; /* Efecto suave al cambiar de estado */
+    transition: all 1s ease;
+        /* Efecto suave al cambiar de estado */
 }
 
 /* Hover para los labels inactivos */
 .tabbed-labels label:hover {
     background-color: #946c92; /* Cambio de color al pasar el mouse */
     color: #4eff33;
+    border-radius: 25px 25px 0 0;
+        transition: all 1s ease;
+        /* Efecto suave al cambiar de estado */
 }
 
 /* Cambia el color de fondo y texto de la pestaña activa */
@@ -52,25 +81,30 @@
     border-radius: 5px 5px 0 0; /* Bordes redondeados en la parte superior */
 }
 
+
 /* Cambia el color del borde inferior de la pestaña activa */
 .md-tab--active::after,
 .tabbed-labels label[for]:has(+ input:checked)::after {
     background-color: #bec925; /* Azul para el borde inferior */
+    border-radius: 5px 5px 0 0;
 }
 
 /* Estilo para el contenido de la pestaña activa */
 .tabbed-content .tabbed-block {
-    background-color: #f9f9f9; /* Fondo claro para el contenido */
+    background-color: #e8e8e8;
+        color: #0e0e0e;
+        /* Fondo claro para el contenido */
     border: 1px solid #ddd; /* Borde alrededor del contenido */
     padding: 15px; /* Espaciado interno */
-    border-top: none; /* Elimina el borde superior para que no se superponga con la pestaña */
+    border-radius: 5px 5px 0 0;
+        /* border-top: none; Elimina el borde superior para que no se superponga con la pestaña */
 }
 
 
 /* Cambia el color de las tabs activas */
 .md-tab--active {
     background-color: #FF5733; /* Naranja */
-    color: white;
+    color: rgb(111, 109, 109);
 }
 
 .md-tab--active::after {
@@ -106,7 +140,7 @@ table {
 /* Encabezados de la tabla */
 th {
     background-color: #0e0e0e; /* Azul */
-    color: white;
+    color: rgb(245, 239, 239);
     padding: 10px;
     text-align: center;
     border-bottom: 2px solid #d0b8cc;
@@ -120,7 +154,7 @@ td {
 
 /* Filas alternas */
 tr:nth-child(even) {
-    background-color:#d0b8cc;
+    background-color: #726770;
 }
 
 /* Hover en filas */
@@ -132,4 +166,23 @@ tr:hover {
 table {
     border-radius: 5px;
     overflow: hidden;
+}
+details.info {
+
+    /* Gris medio */
+
+}
+
+.md-typeset .admonition.info,
+.md-typeset details.info {
+    border-color: #ab1cab;
+    background-color: #d6d2d4;
+    color: #0e0e0e;
+}
+
+.md-typeset .admonition.info,
+.md-typeset details.note {
+    background-color: #d2c4cd;
+    color: #0e0e0e;
+    border-color: #ab1cab;
 }

@@ -1,4 +1,27 @@
+## **Concepto**
 El enfoque en la investigación es el marco filosófico, teórico o conceptual que guía cómo se aborda un estudio. Define la perspectiva desde la cual se interpreta la realidad, se plantean las preguntas y se seleccionan los métodos. Es la "visión" que sustenta todo el proceso de investigación y determina cómo se relaciona el investigador con el objeto de estudio.
+
+El enfoque dentro de la investigación busca determinar cómo se abordará el problema de estudio y qué tipo de datos se utilizarán para responder las preguntas de investigación. Esencialmente, define la perspectiva desde la cual se interpretará la realidad y el camino metodológico que guiará todo el proceso investigativo.
+
+## **¿Qué establece el enfoque?**
+
+**La naturaleza del problema**
+
+-   ¿Se busca medir variables objetivamente ? _**(cuantitativo)**_.
+-   ¿O se pretende comprender significados, experiencias o contextos subjetivos _**(cualitativo)**_.
+
+**El tipo de datos**
+
+-   Datos numéricos y estadísticos _**(cuantitativo)**_.
+-   Datos narrativos, descriptivos o interpretativos _**(cualitativo)**_.
+
+**El método de análisis :**
+-   Análisis estadístico (cuantitativo).
+-   Interpretación de patrones, temas o narrativas (cualitativo).
+
+**La relación con el objeto de estudio**
+-   Enfoque objetivo (distancia entre investigador y fenómeno).
+-   Enfoque subjetivo (interacción cercana entre investigador y fenómeno).
 
 
 ???+ note "¿Qué comprende el enfoque?"
@@ -22,7 +45,7 @@ El enfoque en la investigación es el marco filosófico, teórico o conceptual q
     Las teorías o conceptos que sustentan la investigación (ej.: teoría de género, teoría del caos).
   
 === "Enfoque general"
-     Es el marco teórico y práctico que guía la investigación (ej.: enfoque cualitativo, cuantitativo o mixto).
+     Es el marco teórico y práctico que guía la investigación _(ej.: enfoque cualitativo, cuantitativo o mixto)._
      
     === "Metodologías Cualitativas"
         Se centran en comprender significados, experiencias y perspectivas subjetivas.
@@ -39,23 +62,28 @@ El enfoque en la investigación es el marco filosófico, teórico o conceptual q
         ???+ info "Teoría fundamentada (Grounded Theory)"
                Genera teorías a partir de datos recopilados.
             
-         ???+ info "Investigación narrativa "
+        ???+ info "Investigación narrativa "
                Analiza historias o relatos personales.
 
-         ???+ info "Investigación acción participativa"
+        ???+ info "Investigación acción participativa"
                Busca transformar realidades sociales con la participación de los involucrados.
 
 
     === "Metodologías Cuantitativas"
 
-            Se basan en datos numéricos y análisis estadístico para probar hipótesis.
+        Se basan en datos numéricos y análisis estadístico para probar hipótesis.
 
-            Experimental : Manipula variables para establecer relaciones causa-efecto (ej.: ensayos controlados).
-            Cuasiexperimental : Estudia causas sin asignación aleatoria (ej.: estudios con grupos intactos).
-            Correlacional : Mide la relación entre variables sin manipulación.
-            Descriptiva : Describe características de una población o fenómeno (ej.: encuestas).
-            Longitudinal : Analiza cambios a lo largo del tiempo (ej.: seguimiento de cohortes).
-            Transversal : Recoge datos en un solo momento (ej.: estudios epidemiológicos).
+        **Experimental :** Manipula variables para establecer relaciones causa-efecto (ej.: ensayos controlados).
+
+        **Cuasiexperimental :** Estudia causas sin asignación aleatoria (ej.: estudios con grupos intactos).
+        
+        **Correlacional :** Mide la relación entre variables sin manipulación.
+
+        **Descriptiva :** Describe características de una población o fenómeno (ej.: encuestas).
+        
+        **Longitudinal :** Analiza cambios a lo largo del tiempo (ej.: seguimiento de cohortes).
+        
+        **Transversal :** Recoge datos en un solo momento (ej.: estudios epidemiológicos).
               
     === "Metodologías Mixtas (Mixtas Methods)"
 
@@ -103,19 +131,8 @@ mindmap
       Punto D
 
 ```
-%% Definir colores
-  classDef principal fill:#FFD700,stroke:#333,stroke-width:2px,font-weight:bold;
-  classDef nivel1 fill:#FF5733,stroke:#333,stroke-width:2px,color:white;
-  classDef nivel2 fill:#3498DB,stroke:#333,stroke-width:2px,color:white;
 
-```mermaid
-mindmap
-    root((Metodologías de Investigación)):::principal
-        Enfoque General:::nivel1
-            Cualitativo:::nivel2
-            Cuantitativo:::nivel2
-            Mixto:::nivel2
-```
+
 
 
 ```mermaid
@@ -137,38 +154,4 @@ graph TD
 ```
 
  
-```markdown
-    ```mermaid
-    mindmap
-    root((Metodologías de Investigación)):::raiz
-        Enfoque General:::categoria
-        Cualitativo:::subcategoria
-        Cuantitativo:::subcategoria
-        Mixto:::subcategoria
-        
-        Metodologías Cualitativas:::categoria
-        Etnografía:::tema
-        Estudio de Caso:::tema
-        Fenomenología:::tema
-        Teoría Fundamentada:::tema
-        Investigación Narrativa:::tema
-        Investigación Acción Participativa:::tema
 
-        Metodologías Cuantitativas:::categoria
-        Experimental:::tema
-        Cuasiexperimental:::tema
-        Correlacional:::tema
-        Descriptiva:::tema
-        Longitudinal:::tema
-        Transversal:::tema
-
-        Metodologías Mixtas:::categoria
-        Exploratoria Secuencial:::tema
-        Explicativa Secuencial:::tema
-        Convergente:::tema
-```
-%% Definir estilos
-  classDef raiz fill:#ffcc00,stroke:#333,stroke-width:2px,font-weight:bold;
-  classDef categoria fill:#ff6666,stroke:#333,stroke-width:2px,color:white;
-  classDef subcategoria fill:#66ccff,stroke:#333,stroke-width:2px,color:white;
-  classDef tema fill:#99ff99,stroke:#333,stroke-width:2px;
