@@ -1,3 +1,18 @@
+
+
+##  ¿Por qué este manual?
+
+¿Alguna vez te has sentido perdido frente a términos como paradigma, enfoque, método, nivel o diseño? No estás solo. En la vida académica, estas palabras suelen usarse como si fueran sinónimos, pero en realidad son piezas distintas de un mismo rompecabezas metodológico. Confundirlas no solo complica la redacción de tu proyecto, sino que puede debilitar la coherencia científica de tu investigación.
+
+## Propósito del Manual
+
+Este manual nace con un objetivo claro: traducir la jerga metodológica en un lenguaje cercano, práctico y visual. Aquí no encontrarás definiciones de diccionario, sino una guía diseñada para estudiantes que necesitan:
+- ✅ Comprender qué es cada componente y para qué sirve.
+- ✅ Diferenciarlos con claridad mediante analogías cotidianas y ejemplos contextualizados.
+- ✅ Aplicarlos de forma coherente en proyectos de grado, semilleros o artículos científicos.
+- ✅ Justificar con rigor la ruta metodológica ante tutores y jurados.
+
+
 # Introducción
 
 La investigación es un proceso sistemático y organizado que busca generar conocimiento nuevo o validar información existente mediante la observación, el análisis y la interpretación de datos. Su objetivo es responder preguntas específicas, resolver problemas o interpretar la realidad de manera rigurosa y objetiva o subjetiva , dependiendo del enfoque adoptado.
@@ -11,6 +26,18 @@ La investigación es un proceso sistemático y organizado que busca generar cono
 | **Original**            | Aporta nuevos conocimientos o perspectivas.                                    |
 | **Controlada**          | Minimiza factores externos que puedan afectar los resultados (especialmente en investigaciones cuantitativas). |
 | **Interpretativa** | La investigación no solo describe fenómenos, sino que también interpreta su significado dentro de un contexto específico.|
+
+
+
+| Concepto | Pregunta que Responde | Analogía del Viaje | Ejemplo Cotidiano |
+|----------|----------------------|-------------------|-------------------|
+| **Paradigma** | ¿Qué es la realidad y cómo la conozco? | Tu **brújula filosófica**: ¿Crees que el mapa ya está hecho o lo construyes caminando? | Creer que la verdad es única (científico) vs. creer que cada persona vive su propia verdad (humano) |
+| **Enfoque** | ¿Qué ruta general tomaré? | Decidir si viajas en **auto con GPS** (ruta fija) o haces **mochilero** (ruta flexible) | Cuantitativo (medir) vs. Cualitativo (comprender) |
+| **Método** | ¿Qué procedimiento lógico sigo? | Las **reglas de navegación**: ¿Sigo el método científico estricto o voy descubriendo sobre la marcha? | Método Experimental, Etnográfico, Acción-Participación |
+| **Modalidad** | ¿Dónde y cómo gestiono el estudio? | ¿Viajo solo, con agencia, o voy a vivir al destino? | Documental, De campo, Experimental, Proyecto Factible |
+| **Nivel/Tipo** | ¿Qué profundidad tendrá mi viaje? | ¿Es un paseo de reconocimiento o una expedición para descubrir algo nuevo? | Exploratorio, Descriptivo, Correlacional, Explicativo |
+| **Diseño** | ¿Cuál es el plan logístico detallado? | El **itinerario día a día**: fechas, herramientas, a quién entrevisto y cómo analizo los datos | Experimental puro, Transaccional, Estudio de caso, Fenomenológico |
+
 
 ### epistemología , ontología y axiología
 
